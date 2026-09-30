@@ -1,9 +1,7 @@
-#include <iostream>
-
-using namespace std;
-
+#include "fisa1.h"
 int main()
 {
-    cout << "Hello world!" << endl;
+    ex1();
+
     return 0;
 }
