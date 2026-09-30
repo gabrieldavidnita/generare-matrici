@@ -1,7 +1,7 @@
 # depslib dependency file v1.0
-1790786313 source:c:\mycode\initiere\generare-matrici\main.cpp
+1790787882 source:c:\mycode\initiere\generare-matrici\main.cpp
 	"fisa1.h"
 
-1790786352 c:\mycode\initiere\generare-matrici\fisa1.h
+1790788082 c:\mycode\initiere\generare-matrici\fisa1.h
 	<iostream>
 
