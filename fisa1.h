@@ -156,4 +156,40 @@ void ex8()
     }
     afisareMatrice(x,n);
 }
+//11 12 13 14 15              11=>1  12=>2 13=>3
+//21 22 23 24 25
+//31 32 33 34 35
+//41 42 43 44 45
+//51 52 53 54 55
+
+void ex9()
+{
+    int x[100][100];
+    int n=6;
+    for(int i=1; i<=n; i++)
+    {
+        for(int j=1; j<=n; j++)
+        {
+
+          x[i][j]=j+i-1;
+        }
+    }
+    afisareMatrice(x,n);
+}
+
+
+void ex10()
+{
+    int x[100][100];
+    int n=6;
+    for(int i=1; i<=n; i++)
+    {
+        for(int j=1; j<=n; j++)
+        {
+             x[i][j]=(j+i-2)%n+1;
+
+        }
+    }
+    afisareMatrice(x,n);
+}
 #endif // FISA1_H_INCLUDED
