@@ -1,7 +1,7 @@
 #include "fisa1.h"
 int main()
 {
-    ex10();
 
+      ex62();
     return 0;
 }
